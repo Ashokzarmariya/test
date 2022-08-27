@@ -1,0 +1,56 @@
+.container {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.signup {
+ width: 30%;
+ border-radius: 5px;
+ padding: 1rem 2rem;
+ box-shadow: rgb(0, 123, 255) 0px 20px 30px -10px;
+ padding: 10;
+}
+.inputTag {
+ padding-top: 6px;
+ width: 100%;
+ padding: 1rem;
+}
+
+
+.submit {
+ border-radius: 5px;
+ background-color: rgb(52, 52, 255); 
+ color: white;
+ margin-top: 1rem;
+ outline: none;
+ width: 100%;
+ border: none;
+ cursor: pointer;
+ padding: 1rem;
+}
+
+.submit:hover{
+background-color: rgb(0, 0, 216);
+}
+
+.already {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.togal {
+ color: rgb(103, 103, 255);
+ margin-left: 1rem;
+ cursor: pointer;
+ font-weight: bold;
+ 
+}
+.togal:hover {
+ color: rgb(1, 1, 228);
+}
+
+form>div>p{
+ width: 100%;
+ text-align: start !important;
+}
